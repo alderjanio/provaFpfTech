@@ -2,11 +2,11 @@
 
 
 include ("classConnect.php");
-class ClassLote extends ClassConnection{
+class ClassProject extends ClassConnection{
 
-    public function addProjects()
+    public function addProjects($nameProject,$dataInicio,$DataTermino,$valorProject,$nameRisco,$nameParticipantes)
     {
-        # code...
+        var_dump($nameProject,$dataInicio,$DataTermino,$valorProject,$nameRisco,$nameParticipantes);
     }
 
 }
